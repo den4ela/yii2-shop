@@ -1,22 +1,21 @@
-Покупатель:
-//yii2-shop/frontend/web/index.php/login
-//yii2-shop/frontend/web/index.php/register
-//yii2-shop/frontend/web/index.php/site/request-password-reset
+####Покупатель:
 
-login : txtden
-password : 123456
+* //yii2-shop/frontend/web/index.php/login
+* //yii2-shop/frontend/web/index.php/register
+* //yii2-shop/frontend/web/index.php/site/request-password-reset
 
-
-Админ:
-//yii2-shop/backend/web/index.php/site/login
-
-login : den4ela
-password : 123456
+- login : txtden
+- password : 123456
 
 
+####Админ:
+* //yii2-shop/backend/web/index.php/site/login
+
+- login : den4ela
+- password : 123456
 
 
-Установка:
+####Установка:
  - клонируйте рипозиторий;
  - выполните composer install;
  - в файле common\config\main-params.php установите параметры БД;
@@ -24,14 +23,14 @@ password : 123456
  - в common\config\bootstrap.php - frontendWebroot и backendWebroot изменить под свой домен;
  - для прав админа назначить атрибут (role = 20)
  
- Выполнить, если этих каталогов нет:
-  -backend\web\banners загрузка баннеров
-  
-  -frontend\web\images\brands загрузка брендов
-  -frontend\web\images\categories загрузка img категорий
-  -frontend\web\images\products загрузка img товаров
+ 
+####Создать, если этих каталогов нет:
+  - backend\web\banners загрузка баннеров
+  - frontend\web\images\brands загрузка брендов
+  - frontend\web\images\categories загрузка img категорий
+  - frontend\web\images\products загрузка img товаров
 
  
- Требования:
- php >= 5.6.0
- mysql >= 5.5
+ ####Требования:
+ - php >= 5.6.0
+ - mysql >= 5.5
