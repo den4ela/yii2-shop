@@ -1,4 +1,4 @@
-####Покупатель:
+#### Покупатель:
 
 * //yii2-shop/frontend/web/index.php/login
 * //yii2-shop/frontend/web/index.php/register
