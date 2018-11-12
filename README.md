@@ -8,14 +8,14 @@
 - password : 123456
 
 
-####Админ:
+#### Админ:
 * //yii2-shop/backend/web/index.php/site/login
 
 - login : den4ela
 - password : 123456
 
 
-####Установка:
+#### Установка:
  - клонируйте рипозиторий;
  - выполните composer install;
  - в файле common\config\main-params.php установите параметры БД;
@@ -24,13 +24,13 @@
  - для прав админа назначить атрибут (role = 20)
  
  
-####Создать, если этих каталогов нет:
+#### Создать, если этих каталогов нет:
   - backend\web\banners загрузка баннеров
   - frontend\web\images\brands загрузка брендов
   - frontend\web\images\categories загрузка img категорий
   - frontend\web\images\products загрузка img товаров
 
  
- ####Требования:
+ #### Требования:
  - php >= 5.6.0
  - mysql >= 5.5
